@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE</title>
+    <link rel="stylesheet" href="./Form.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="important">Payment Form</h1>
+    <hr>
+    <p>
+        Name:
+        <br>
+        <input type="text" id="Name" placeholder="Name">
+    </p>
+    
+    <fieldset>    
+        <legend>Gender: </legend>
+        Male <input type="radio" name="Gender" id="Gender">
+        Female <input type="radio" name="Gender" id="Gender">
+    </fieldset>
+
+    <p>Address:
+        <br>
+        <textarea type="textArea" name="Address" id="Address" cols="100" rows="10" placeholder="Enter the address"></textarea>
+    </p>
+    <p>Email:
+        <br>
+        <input type="text" name="Email" placeholder="Email">
+    </p>
+    <p>
+        Pincode:
+        <br>
+        <input type="Number" name="Pincode" id="Pin" placeholder="12345">
+    </p>
+    <h2> Payment Information</h2>
+    <p>
+        Card Type:
+        <br>
+    <select name="Card Type" id="Card">
+        <option value="--Select the Card--">--Select the Card--</option>
+        <option value="Debit Card"> Debit Card</option>
+        <option value="Credit Card"> Credit Card</option>
+        <option value="Visa">Visa</option>
+        <option value="Master Card">Master Card</option>
+    </select> </p>
+    <p>
+        Card Number:
+        <br>
+        <input type="number" name="Crad Number" id="Card" placeholder="0000-1111-2222-3333">
+    </p>
+    <p>
+        Expiration Date:
+        <br>
+        <input type="Date" name="date">
+    </p>
+    <button type="button" onclick="alter('Submitted Successfully')"> Submitt</button>
+</div>
+    
+
+
+
+</body>
+</html>
